@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            body{
+                font-family: times new roman sans-serif;
+                background-image: url(https://www.unklab.ac.id/wp-content/uploads/2022/11/20200209_152248-1024x768.jpg);
+                background-size: 1600px;
+            }
+
+            .grid-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center; 
+                height: 100vh;
+            }
+
+            .grid-box {
+                width: 50%;
+                padding: 30px;
+                box-sizing: border-box;
+                text-align: center;
+                background-color: blue;
+                margin: 20px;
+                border-radius: 10px;
+                color: white;
+            }
+            
+            h1{
+                text-align: center;
+                font-weight: 300;
+            }
+            
+            .tulisan_login{
+			
+                text-align: center;
+                text-transform: uppercase;
+            }
+            
+            .kotak_login{
+                width: 350px;
+                background: white;
+                margin: 50px auto;
+                padding: 30px 20px;
+            }
+            
+            label{
+                font-size: 11pt;
+            }
+            
+            .form_login{
+                box-sizing : border-box;
+                width: 100%;
+                padding: 10px;
+                font-size: 11pt;
+                margin-bottom: 20px;
+            }
+            
+            .tombol_login{
+                background: skyblue;
+                color: white;
+                font-size: 11pt;
+                width: 100%;
+                border: none;
+                border-radius: 3px;
+                padding: 10px 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="kotak_login">
+            <p class="tulisan_login">Sign Up</p>
+            <form>
+                <label>First Name</label>
+                <input type="text" name="Name" class="form_login" placeholder="First name...">
+    
+                <label>Last Name</label>
+                <input type="text" name="Last Name" class="form_login" placeholder="Last name...">
+				
+			    <label>Age</label>
+                <input type="Number" name="Age" class="form_login" placeholder="Age...">
+				
+				<label>Address</label>
+                <input type="text" name="Address" class="form_login" placeholder="Address...">
+				
+				<label>Date of Birth</label>
+                <input type="Date" name="Date of Birth" class="form_login" placeholder="Date of Birth...">
+				
+				<label>Whatsapp Number</label>
+                <input type="Dropdown" name="Whatsapp Number" class="form_login" placeholder="Whatsapp Number...">
+				
+				<label>Username</label>
+                <input type="text" name="Username" class="form_login" placeholder="Username...">
+				
+				<label>Email</label>
+                <input type="text" name="Email" class="form_login" placeholder="Email...">
+				
+				<label>Password</label>
+                <input type="text" name="password" class="form_login" placeholder="Password...">
+				
+				<label>Re-Password</label>
+                <input type="text" name="Re-password" class="form_login" placeholder="Re-Password...">
+    
+                <input type="submit" class="tombol_login" value="Sign Up">
+    
+                <br/>
+                <br/>
+
+            </form>
+        </div>
+    </body>
+</html>
