@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Header dengan Gambar Latar Belakang</title>
+    <style>
+        body {
+            font-family: times new roman sans-serif;
+            background-image: url(https://wallpaperaccess.com/full/5652030.jpg);
+            background-size: 1600px;
+            margin: 0; /* Hapus margin default untuk body */
+            padding: 0; /* Hapus padding default untuk body */
+        }
+
+        .header {
+            background-image: url(https://th.bing.com/th/id/R.b93b6a9640baa87ac69019812d18b017?rik=mf1MwrOKqymdbQ&riu=http%3a%2f%2fwww.highlandcustomhomes.com%2fwp-content%2fthemes%2fro%2flibrary%2fimages%2fgalleryBG.jpg&ehk=6YqIOJiCaqpjcrtSxZWjzmBeplUzPKsyHgvDCt60kvw%3d&risl=&pid=ImgRaw&r=0);
+            background-size: 1600px;
+            height: 300px;
+            position: relative;
+            text-align: center;
+            color: #fff;
+        }
+
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(61, 60, 60, 0.7);
+            padding: 60px;
+            border-radius: 10%;
+        }
+
+        .header-text h1 {
+            font-size: 36px;
+        }
+
+        .header-text p {
+            font-size: 18px;
+        }
+
+        .profile-image {
+            position: absolute;
+            top: 50%; 
+            left: 120px; 
+            transform: translateY(-50%); 
+            width: 200px; 
+            height: 200px; 
+            border: 3px solid #fff; 
+            border-radius: 50%; 
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img class="profile-image" src="https://www.pngitem.com/pimgs/m/78-786293_1240-x-1240-0-avatar-profile-icon-png.png" alt="Gambar Profil">
+        <div class="header-text">
+            <h1>Revando Aruperes</h1>
+        </div>
+    </div>
+</body>
+</html>
